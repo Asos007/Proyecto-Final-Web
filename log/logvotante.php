@@ -6,8 +6,8 @@
     <title> VOTACIONES </title>
 
     <!-- Bootstrap core CSS -->
-    <link href="Asset\css\bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="Asset\css\style.css" rel="stylesheet" type="text/css">
+    <link href="../Asset\css\bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../Asset\css\style.css" rel="stylesheet" type="text/css">
 
   </head>
   <body>
@@ -15,13 +15,11 @@
     <div class="cold-md-2"></div>
     <div class="col-md-10">
       <form class="form-signin">
-       <img class="mb-4" src="Asset/img/indexico1.png" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal text-center">VOTACIONES 2020</h1>
-        <label for="inputEmail" class="sr-only">USUARIO</label>
-        <input type="email" id="inputusuario" class="form-control" placeholder="USUARIO" required="" autofocus="">
-        <label for="inputPassword" class="sr-only">Contrasena</label>
-        <input type="password" id="inputcontrasena" class="form-control" placeholder="Contrasena" required="">
-        <button class="btn btn-lg btn-primary btn-warning" type="submit">INICIAR</button>
+        <h5 class="h3 mb-3 font-weight-normal text-center">INGRESE SU CEDULA DE IDENTIDAD</h5>
+        <label for="inputEmail" class="sr-only">VOTANTE</label>
+        <input type="email" id="inputusuario" class="form-control" placeholder="CEDULA" required="" autofocus="">
+        <button class="btn btn-lg btn-primary btn-warning" type="submit">INGRESAR</button>
         </div>
       </form>
     </div>
