@@ -2,7 +2,7 @@
 include "Config/conexion.php";
 
 $con = conectar();
-echo "se conecto de manera exitosa";
+//echo "se conecto de manera exitosa";
 ?>
 
 
