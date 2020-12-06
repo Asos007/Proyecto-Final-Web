@@ -11,6 +11,7 @@
 
     <style>
       h1{
+        
         color:black;
         font-size: 5em;
         text-transform: uppercase;
@@ -19,6 +20,8 @@
         left: 50%;
         top: 50%;
         text-aling:
+        
+
       }
     
     
@@ -28,7 +31,7 @@
 
     <center><h1>Votaciones 2020</h1></center>
     </br>
-    <center><h2> ¡Debe de seleccionar un candidato un candidato presidencial!</h2></center>
+    <center><h2> ¡Debe de seleccionar un candidato un candidato para alcalde!</h2></center>
     </br>
     </br>
 
@@ -36,9 +39,10 @@
       <img src="Asset/img/Partido A.png" >
       <img src="Asset/img/Partido B.png" >
     </div>
-    
-    <href= "Sistem/candidatos/alcalde.php"> <img src= "Asset/img/Partido A.png">
-    <href= "Sistem/candidatos/alcalde.php"> <img src= "Asset/img/Partido b.png">
+      
+    <href= "Sistem/candidatos/diputado.php"> <img src= "Asset/img/Partido A.png">
+    <href= "Sistem/candidatos/diputado.php"> <img src= "Asset/img/Partido b.png">
+      
   
   
   
