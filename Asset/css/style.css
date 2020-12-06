@@ -17,10 +17,6 @@ body {
   padding-bottom: 40px;
   background-color: #ffffff;
   background-image: url("../img/photo5055779632925747374.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 700px;
   
 }
 
@@ -64,8 +60,4 @@ img {
 .btn-warning{
   display: block;
     width: 100%;
-}
-
-p{
-  text-decoration: none;
 }
