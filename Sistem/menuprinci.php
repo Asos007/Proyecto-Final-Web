@@ -39,6 +39,7 @@
                 <div class="col-md-auto">
                 </div>
                 <div class="col col-lg-2">
+                        <!--aqui va la pantalla de Opciones-->
                         <a href="#">
                             <img class="photoo" src="../Asset/img/opciones.png" alt="">
                         </a>
