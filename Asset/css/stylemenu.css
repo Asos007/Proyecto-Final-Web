@@ -1,23 +1,42 @@
 .algo {
     margin-top: 80px;
 }
+.algo1 {
+    margin-top: 60px;
+}
 
 .row-md-5{
     margin-top: 70px;
+}
+.row-md-6{
+    margin-top: 40px;
 }
 
 .vot{
    font-size: 100px;
 }
+.vot2{
+    font-size: 60px;
+ }
 
 .photo{
     width: 300px;
     height: 300px;
 }
 
-.btn{
+.btn0{
     width: 500px;
     height: 100px;
+    font-weight: bold;
+}
+.btn1{
+    width: 400px;
+    height: 70px;
+    font-weight: bold;
+}
+.btn2{
+    width: 200px;
+    height: 70px;
     font-weight: bold;
 }
 
