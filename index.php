@@ -1,26 +1,3 @@
-<?php
-$conn = mysqli_connect('localhost', 'root', '', 'sistema_votos');
-
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-$username = $_POST["user"];
-$password = $_POST["passwords"];
-
-$consulta = "SELECT idusuario, user, password FROM usuarios WHERE user = user ";
-
-if (mysqli_query($conn, $consulta)) {
-    header("Location: /php-menuprinci");
-} else {
-    echo "Error: " . $consulta . "<br>" . mysqli_error($conn);
-}
-
-mysqli_close($conn);
-
-?>
-
-
 <html lang="en">
 
 <head>
@@ -38,7 +15,7 @@ mysqli_close($conn);
 <body>
   <div class="cold-md-2"></div>
   <div class="col-md-10">
-    <form method="POST" action="index.php" post="post" class="form-signin">
+    <form method="POST" action="validacion.php" class="form-signin">
       <img class="mb-4" src="Asset/img/indexico1.png" alt="" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal text-center">VOTACIONES 2020</h1>
       <!--Label-->
@@ -49,7 +26,8 @@ mysqli_close($conn);
       <!--Label-->
       <label for="inputPassword" class="sr-only">Contrasena</label>
       <!--input tipo texto-->
-      <input type="password" name="passwords" id="inputcontrasena" class="form-control" placeholder="Contrasena" required="">
+      <input type="password" name="passwords" id="inputcontrasena" class="form-control" placeholder="Contrasena"
+        required="">
       <!--button-->
       <button class="btn btn-lg btn-primary btn-warning" type="submit" value="submit">INICIAR</button>
   </div>
