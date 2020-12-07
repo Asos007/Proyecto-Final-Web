@@ -1,5 +1,22 @@
 <?php
+$conn = mysqli_connect('localhost', 'root', '', 'sistema_votos');
 
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+$username = $_POST["user"];
+$password = $_POST["passwords"];
+
+$consulta = "SELECT idusuario, user, password FROM usuarios WHERE user = user ";
+
+if (mysqli_query($conn, $consulta)) {
+    header("Location: /php-menuprinci");
+} else {
+    echo "Error: " . $consulta . "<br>" . mysqli_error($conn);
+}
+
+mysqli_close($conn);
 
 ?>
 
