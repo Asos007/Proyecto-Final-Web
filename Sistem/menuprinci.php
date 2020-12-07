@@ -36,7 +36,9 @@
       </a>
     </div>
     <div class="row-md-5">
+      <a href="../index.php">
       <button class="btn btn0 btn-lg btn-primary btn-warning" type="submit">SALIR DEL SISTEMA</button>
+      </a>
     </div>
 
     <div class="row">
