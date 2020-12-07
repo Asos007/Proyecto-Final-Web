@@ -27,10 +27,16 @@ $con = conectar();
     <form class="form-signin">
       <img class="mb-4" src="Asset/img/indexico1.png" alt="" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal text-center">VOTACIONES 2020</h1>
+      <!--Label-->
       <label for="inputEmail" class="sr-only">USUARIO</label>
-      <input type="email" id="inputusuario" class="form-control" placeholder="USUARIO" required="" autofocus="">
+      <!--input tipo texto-->
+      <input type="text" name="user" id="inputusuario" class="form-control" placeholder="USUARIO" required=""
+        autofocus="">
+      <!--Label-->
       <label for="inputPassword" class="sr-only">Contrasena</label>
-      <input type="password" id="inputcontrasena" class="form-control" placeholder="Contrasena" required="">
+      <!--input tipo texto-->
+      <input type="password" name="pass" id="inputcontrasena" class="form-control" placeholder="Contrasena" required="">
+      <!--button-->
       <button class="btn btn-lg btn-primary btn-warning" type="submit">INICIAR</button>
   </div>
   </form>
