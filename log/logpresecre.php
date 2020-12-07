@@ -18,12 +18,12 @@
        
         <h1 class="h3 mb-3 font-weight-normal text-center">VOTACIONES 2020</h1>
         
-        <label for="inputEmail" class="sr-only">PRESIDENTE</label>
+        <label for="inputText" class="sr-only">PRESIDENTE</label>
         <input type="email" id="inputusuario" class="form-control" placeholder="PRESIDENTE" required="" autofocus="">
         <label for="inputPassword" class="sr-only">Contrasena</label>
         <input type="password" id="inputcontrasena" class="form-control" placeholder="CONTRASENA" required="">
 
-        <label for="inputEmail" class="sr-only">SECRETARIO</label>
+        <label for="inputText" class="sr-only">SECRETARIO</label>
         <input type="email" id="inputusuario" class="form-control" placeholder="SECRETARIO" required="" autofocus="">
         <label for="inputPassword" class="sr-only">Contrasena</label>
         <input type="password" id="inputcontrasena" class="form-control" placeholder="CONTRASENA" required="">

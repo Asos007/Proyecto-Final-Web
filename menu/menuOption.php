@@ -46,7 +46,7 @@
       </div>
       <div class="col col-lg-2">
 
-        <a href="#">
+        <a href="../Sistem/menuprinci.php">
           <button class="btn btn2 btn-primary btn-warning" type="submit">Atras</button>
         </a>
       </div>
